@@ -1,6 +1,7 @@
 
 import { StyleSheet, Text, View } from 'react-native';
 import {Ionicons} from 'react-native-vector-icons'
+import { Badge } from 'react-native-elements';
 
 export default function AppBar(){
     return (
@@ -23,10 +24,13 @@ export default function AppBar(){
                 <Text>4.89</Text>
              </View>
          </View>
-              <Ionicons
+      <View>
+           <Ionicons
               style={{backgroundColor:'white',padding:6,}} 
               name = 'notifications-outline' 
               size={22}/>
+           <Badge status="error" value={3} containerStyle={{ position: 'absolute', top: -4, right: -4, }} />
+      </View>
             </View>
           </View>
       );
