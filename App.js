@@ -9,7 +9,7 @@ import BottomTabs from './components/bottom_tabs';
 export default function App() {
   
   return (
-    <SafeAreaView style={{backgroundColor:'#F4F6FA',flex:1}}>
+    <SafeAreaView style={{backgroundColor:'#F4F6FA',flex:1,marginTop:30}}>
       <StatusBar style="auto" />
        <AppBar />
        <DropdownMenu />
@@ -27,7 +27,7 @@ export default function App() {
         <Button
       title="Search Job"
       buttonStyle={{
-        width:400,
+        width:380,
         padding:10,
         backgroundColor: '#529A69',
         borderRadius: 5,
