@@ -10,7 +10,7 @@ export default function DropdownMenu(){
               data={countries}
               defaultButtonText='Choose job category'
               buttonStyle={{width:'94%',backgroundColor:'white',borderRadius:10}}
-              buttonTextStyle={{color:'grey',textAlign:'left'}}
+              buttonTextStyle={{color:'grey',textAlign:'left',fontSize:16}}
               renderDropdownIcon = {()=> <Icon type='font-awesome' name='chevron-down' size={16} color='grey'/>}
             />
        </View>
